@@ -1,0 +1,16 @@
+{
+  "nolja_update": {
+      "target":"/home/sungbin/Working/Nolja/update.py",
+      "runner":"/usr/bin/python",
+      "cwd":"/home/sungbin/Working/Nolja",
+      "interval":1,
+      "continue":true
+   },
+  "nolja_crawl_ten_pages": {
+      "target":"/home/sungbin/Working/Nolja/save_ten_pages_to_json.py",
+      "runner":"/usr/bin/python",
+      "cwd":"/home/sungbin/Working/Nolja",
+      "interval":300,
+      "continue":false
+   }
+}
